@@ -1,0 +1,238 @@
+{
+  "id": "5d7d8cf9-bd39-43a4-919d-b04db041e9a0",
+  "version": "2.0",
+  "name": "Login to New Relic One",
+  "url": "https://login.newrelic.com",
+  "tests": [{
+    "id": "c1d8c08d-d9fc-465b-8ec1-f66123bec5c9",
+    "name": "NR1 Login test",
+    "commands": [{
+      "id": "bdccf896-58eb-4ee7-93c4-6aa5a44eb93c",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b749511e-aa91-43d4-a7a6-7fc0381387e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1417x926",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c766312b-c3a5-4184-b00a-d8163718328a",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login[email]", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "breno.gomes@gmx.com"
+    }, {
+      "id": "7aeb8f38-3069-4e36-b64e-b358b3e7f94e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_submit",
+      "targets": [
+        ["id=login_submit", "id"],
+        ["name=button", "name"],
+        ["css=#login_submit", "css:finder"],
+        ["xpath=//button[@id='login_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc8ebe12-851c-4f97-a112-b62b1c0112a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=login[password]", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "Q1w2E3r4T5y6NewRelic2!"
+    }, {
+      "id": "27c02118-f547-47ea-a5f5-02a815749e69",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login[email]", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "bgomes@newrelic.com"
+    }, {
+      "id": "5beec9b2-e4e6-42a0-8191-58330bbe5284",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login[email]", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8161ab9-6cd1-42d6-9c20-56757149bf15",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_email",
+      "targets": [
+        ["id=login_email", "id"],
+        ["name=login[email]", "name"],
+        ["css=#login_email", "css:finder"],
+        ["xpath=//input[@id='login_email']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "breno.gomes@gmx.com"
+    }, {
+      "id": "7cb72a34-6a61-4baa-90ed-49572d329ba1",
+      "comment": "",
+      "command": "type",
+      "target": "id=login_password",
+      "targets": [
+        ["id=login_password", "id"],
+        ["name=login[password]", "name"],
+        ["css=#login_password", "css:finder"],
+        ["xpath=//input[@id='login_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "kwPY99AsKzecM&VP^6pEQyJ7UKk42VjfyQrCvx4rwy$V02SRor"
+    }, {
+      "id": "2b136d08-339e-4ba0-bdc7-6f8f293ad06a",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_submit",
+      "targets": [
+        ["id=login_submit", "id"],
+        ["name=button", "name"],
+        ["css=#login_submit", "css:finder"],
+        ["xpath=//button[@id='login_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfcd8052-18f9-45bc-b284-734a389e9edb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AACQAC-wnd-Button--normal > .AACQAC-wnd-Button-content",
+      "targets": [
+        ["css=.AACQAC-wnd-Button--normal > .AACQAC-wnd-Button-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div/div/div/div[3]/div/div/div/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Start exploring')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac7a53f6-ee00-4167-851f-9658459a26cd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f66ac9b8-efc1-4936-a66f-405f405cccab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get started",
+      "targets": [
+        ["linkText=Get started", "linkText"],
+        ["css=.AAALAB-nr1-ProductEmptyState-getStartedLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Get started')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div/div/div/div/div/div[2]/aside/a", "xpath:idRelative"],
+        ["xpath=//aside/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb2a2e88-48e6-4a24-aa91-99e37ed7f333",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DashboardModalContent-cancel",
+      "targets": [
+        ["css=.DashboardModalContent-cancel", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa124702-ec28-4fb0-a08f-1f7ee214e9c0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#dropdown-0 .AACQAC-wnd-DropdownTrigger-button-title",
+      "targets": [
+        ["css=#dropdown-0 .AACQAC-wnd-DropdownTrigger-button-title", "css:finder"],
+        ["xpath=//button[@id='dropdown-0']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "915dc5a7-ce93-4cf4-b4c9-c98c46c8efe0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#dropdown-0 .AACQAC-wnd-DropdownTrigger-button-title",
+      "targets": [
+        ["css=#dropdown-0 .AACQAC-wnd-DropdownTrigger-button-title", "css:finder"],
+        ["xpath=//button[@id='dropdown-0']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "482d08a5-afa2-4ad1-a6d0-dfc3d9ba7739",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#dropdown-0 .AACQAC-wnd-DropdownTrigger-button-title",
+      "targets": [
+        ["css=#dropdown-0 .AACQAC-wnd-DropdownTrigger-button-title", "css:finder"],
+        ["xpath=//button[@id='dropdown-0']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12fa3806-7835-42aa-ab97-ec15d5af127d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AACQAC-wnd-UserMenu-logout > .AACQAC-wnd-PopoverListItem-content",
+      "targets": [
+        ["css=.AACQAC-wnd-UserMenu-logout > .AACQAC-wnd-PopoverListItem-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[5]/div/div/div/div/div[5]/div/div/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1702b67-7e56-466c-a8c8-49431780b384",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c1d8c08d-d9fc-465b-8ec1-f66123bec5c9"]
+  }],
+  "urls": ["https://login.newrelic.com/"],
+  "plugins": []
+}
